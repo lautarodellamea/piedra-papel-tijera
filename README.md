@@ -16,7 +16,7 @@ npm install
 ```bash
 npm run dev
 ```
-4. Abre tu navegador web y ve a http://localhost:5173 para jugar al Piedra, Papel o Tijera.
+4. Abre tu navegador web y ve a http://localhost:3000 para jugar al Piedra, Papel o Tijera.
 
 
 ## Características

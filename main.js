@@ -1,4 +1,4 @@
-import "./style.scss";
+import "./src/scss/style.scss";
 
 const d = document;
 

@@ -1,14 +1,17 @@
 {
+  "homepage": "https://github.com/lautarodellamea/piedra-papel-tijera",
   "name": "ppt",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "sass": "^1.62.1",
     "vite": "^4.3.2"
   }
