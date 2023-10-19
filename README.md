@@ -31,7 +31,3 @@ npm run dev
 - HTML
 - SASS
 - JavaScript
-
-## Autor
-
-[Lautaro Della Mea](https://lautarodellamea.netlify.app/)
