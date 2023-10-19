@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <img
+          class="header__logo"
+          src="public/assets/images/logo.svg"
+          alt="logo"
+        />
+        <div class="header__score">
+          <p class="header__text">SCORE</p>
+          <p class="header__count">0</p>
+        </div>
+      </header>
+
+      <section class="options">
+        <img
+          class="options__triangle"
+          src="public/assets/images/bg-triangle.svg"
+          alt="triangle"
+        />
+        <div class="options__duo">
+          <div class="options__div options__div--rock">
+            <img
+              src="public/assets/images/icon-rock.svg"
+              class="rock"
+              alt="rock"
+            />
+          </div>
+          <div class="options__div options__div--paper">
+            <img
+              src="public/assets/images/icon-paper.svg"
+              class="paper"
+              alt="paper"
+            />
+          </div>
+        </div>
+        <div class="options__div options__div--scissors">
+          <img
+            src="public/assets/images/icon-scissors.svg"
+            class="scissors"
+            alt="scissors"
+          />
+        </div>
+      </section>
+
+      <section class="playing none">
+        <div class="playing__cont">
+          <div class="playing__item">
+            <p class="playing__p">YOU PICKED</p>
+            <div class="playing__div playing__div--human">
+              <img
+                id="playing__img-1"
+                class="playing__img playing__img--human"
+                src=""
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="playing__item">
+            <p class="playing__p">COMPUTER</p>
+            <div
+              class="playing__div playing__div--pc playing__div--pc--inactive"
+            >
+              <img
+                id="playing__img-2"
+                class="playing__img playing__img--pc"
+                src="../../../../public/assets/images/icon-paper.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="playing__item playing__item--condition none">
+          <div class="playing__items">
+            <p class="playing__condition">***</p>
+            <a class="playing__btn">PLAY AGAIN</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="modal-rules none">
+        <div class="rules">
+          <h2 class="rules__title">RULES</h2>
+          <img
+            class="rules__img"
+            src="public/assets/images/image-rules.svg"
+            alt=""
+          />
+          <div class="rules__cont-img">
+            <img
+              class="rules__close"
+              src="public/assets/images/icon-close.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <button class="btn-rules">RULES</button>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

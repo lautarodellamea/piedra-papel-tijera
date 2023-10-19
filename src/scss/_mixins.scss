@@ -1,0 +1,13 @@
+@mixin flexible($dis, $dir, $jus, $ali, $gap: 0rem) {
+  display: $dis;
+  flex-direction: $dir;
+  justify-content: $jus;
+  align-items: $ali;
+  gap: $gap;
+}
+
+@mixin desktop($medida: 720px) {
+  @media (min-width: $medida) {
+    @content;
+  }
+}
